@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 
 class MessengerScreen extends StatelessWidget {
   const MessengerScreen({super.key});
-//hello
+//hello Im maha
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
